@@ -10,10 +10,10 @@ mkdir C:\projects\fifengine-dependencies\includes\include\boost
 xcopy /Y /S "C:\Libraries\boost_1_64_0\boost" "C:\projects\fifengine-dependencies\includes\include\boost" >nul 2>&1
 
 :: copy binaries (dlls) and libs
-copy "C:\Libraries\boost_1_64_0\lib32-msvc-14.0\boost_filesystem-vc140-mt-1_64.dll" "C:\projects\fifengine-dependencies\includes\bin\boost_filesystem-vc140-mt-1_64.dll"
-copy "C:\Libraries\boost_1_64_0\lib32-msvc-14.0\boost_system-vc140-mt-1_64.dll" "C:\projects\fifengine-dependencies\includes\bin\boost_system-vc140-mt-1_64.dll"
-copy "C:\Libraries\boost_1_64_0\lib32-msvc-14.0\libboost_filesystem-vc140-mt-1_64.lib" "C:\projects\fifengine-dependencies\includes\lib\boost\libboost_filesystem-vc140-mt-1_64.lib"
-copy "C:\Libraries\boost_1_64_0\lib32-msvc-14.0\libboost_system-vc140-mt-1_64.lib" "C:\projects\fifengine-dependencies\includes\lib\boost\libboost_system-vc140-mt-1_64.lib"
+copy "C:\Libraries\boost_1_64_0\lib32-msvc-17.0\boost_filesystem-vc170-mt-1_64.dll" "C:\projects\fifengine-dependencies\includes\bin\boost_filesystem-vc170-mt-1_64.dll"
+copy "C:\Libraries\boost_1_64_0\lib32-msvc-17.0\boost_system-vc170-mt-1_64.dll" "C:\projects\fifengine-dependencies\includes\bin\boost_system-vc170-mt-1_64.dll"
+copy "C:\Libraries\boost_1_64_0\lib32-msvc-17.0\libboost_filesystem-vc170-mt-1_64.lib" "C:\projects\fifengine-dependencies\includes\lib\boost\libboost_filesystem-vc170-mt-1_64.lib"
+copy "C:\Libraries\boost_1_64_0\lib32-msvc-17.0\libboost_system-vc170-mt-1_64.lib" "C:\projects\fifengine-dependencies\includes\lib\boost\libboost_system-vc170-mt-1_64.lib"
 
 :: remove the "share" folder
 rmdir /S /Q C:\projects\fifengine-dependencies\includes\share
