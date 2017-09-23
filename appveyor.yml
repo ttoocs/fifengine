@@ -114,7 +114,7 @@ build_script:
 
 after_build:
   - dir C:\projects\build\Release /s
-  - if "%generator%"=="Visual Studio 15" (set COMPILER="VC14")
+  - if "%generator%"=="Visual Studio 15" (set COMPILER="VC15")
   - if "%generator%"=="MinGW Makefiles"  (set COMPILER="MinGW") 
 
   # package dependencies artifact
