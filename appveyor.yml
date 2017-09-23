@@ -62,6 +62,8 @@ init:
   - "%PYTHON%\\python.exe -c \"import struct; print(struct.calcsize('P') * 8)\""
 
 install:
+  - cd C:\Libraries\boost_1_64_0\
+  - dir
   # set path to boost according to compiler toolchain
   - if "%generator%" == "Visual Studio 15" (SET boost_root=C:\Libraries\boost_1_64_0)
   - if "%generator%" == "Visual Studio 15" (SET boost_librarydir=C:\Libraries\boost_1_64_0\lib32-msvc-14.1)
