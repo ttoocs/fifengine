@@ -837,7 +837,7 @@ if(fifechan)
   endif(build-python)
 
   include_directories(${FIFECHAN_INCLUDE_DIR})
-  link_directories(${FIFECHAN_LIBRARIES})
+  #link_directories(${FIFECHAN_LIBRARIES}) #Test if this need to exist?
 
 endif(fifechan)
 
